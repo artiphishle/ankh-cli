@@ -1,0 +1,33 @@
+{
+  "bin": "dist/index.js",
+  "devDependencies": {
+    "@types/gradient-string": "^1.1.2",
+    "@types/chalk-animation": "^1.6.1",
+    "@types/figlet": "^1.5.5",
+    "@types/inquirer": "^9.0.3",
+    "@types/lodash": "^4.14.191",
+    "@types/node": "^18.15.6",
+    "@types/yargs": "^17.0.23",
+    "typescript": "next"
+  },
+  "dependencies": {
+    "chalk": "^5.2.0",
+    "chalk-animation": "^2.0.3",
+    "figlet": "^1.5.2",
+    "gradient-string": "^2.0.2",
+    "inquirer": "^9.1.5",
+    "nanospinner": "^1.1.0",
+    "yargs": "^17.7.1"
+  },
+  "main": "./dist/index.js",
+  "name": "ankh-cli",
+  "packageManager": "pnpm@8.1.0",
+  "private": true,
+  "scripts": {
+    "build": "tsc",
+    "start": "tsc && node ./dist/index.js"
+  },
+  "sideEffects": false,
+  "type": "module",
+  "version": "0.1.0"
+}
