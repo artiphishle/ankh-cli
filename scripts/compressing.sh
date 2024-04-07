@@ -1,3 +1,11 @@
+#/bin/bash
+
+# Manuals
+man zip
+man unzip
+man gunzip
+man tar
+
 # ZIP (compress/extract)
 zip -r archive.zip directory
 unzip archive.zip
@@ -9,8 +17,3 @@ tar -zxvf archive.tar.gz
 # GZ (extract)
 gunzip archive.gz
 
-# DMG (create/mount/view/eject)
-hdiutil create -format UDZO -directory archive.dmg
-hdiutil attach archive.dmg
-ls -lah /Volumes/archive/
-hdiutil eject /Volumes/archive/
